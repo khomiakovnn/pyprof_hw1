@@ -1,6 +1,6 @@
-from application.salary import calculate_salary
-from application.db.people import get_employees
-from datetime import datetime
+from application.salary import *
+from application.db.people import *
+from datetime import *
 
 def main():
     calculate_salary()
